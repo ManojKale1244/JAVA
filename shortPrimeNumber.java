@@ -16,7 +16,7 @@ public class shortPrimeNumber {
     public static void primeNum(int n) {
         for (int i = 2; i <= n; i++) {
             if (isprime(i)) {
-                System.out.println(i);
+                System.out.print(i + " ");
             }
 
         }
