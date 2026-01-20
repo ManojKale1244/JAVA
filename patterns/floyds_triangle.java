@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class floyds_triangle {
+public class floyds_triangle {  
     public static void Half_Pyramid(int n) {
         int count = 1;
         for(int i =1;i<=n;i++){
