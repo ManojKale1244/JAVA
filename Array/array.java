@@ -1,15 +1,18 @@
 import java.util.*;
-public class array{
-    public static void main(String[] args) {
-        int marks[] = new int[20];
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Physics Marks :");
-        marks[0] = sc.nextInt();
-        System.out.print("Enter a Math Marks :");
-        marks[1] = sc.nextInt();
-        System.out.print("Enter a Chemistry marks :");
-        marks[2] = sc.nextInt();
-        System.out.println(marks[0] + " " + marks[1] + " " + marks[2]);
-        sc.close();
+public class array {
+    public static void add(int marks[]){
+        for(int i =0; i<marks.length;i++){
+            marks[i] = marks[i]+1;
+            System.out.println(marks[i]);
+        }
     }
+
+     public static void main(String[] args) {
+        int mark[] = new int [3];
+        mark[0] = 95;
+        mark[1] = 96;
+        mark[2] = 97;
+        add(mark);
+
+     }
 }
