@@ -14,7 +14,7 @@ public class MinSubarray {
           if(Min>sum){
             Min = sum;
           }
-        }
+        } 
      }
      System.out.println("The min value is : " + Min);
     }
