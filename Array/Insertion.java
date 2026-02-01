@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.*;
 public class Insertion {
     public static void InsertionSort(int arr[]){
         for(int i=1; i<arr.length;i++){
@@ -11,8 +13,8 @@ public class Insertion {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {5,4,1,3,2};
-        InsertionSort(arr);
+        Integer arr[] = {5,4,1,3,2};
+     Arrays.sort(arr,Collections.reverseOrder());
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
