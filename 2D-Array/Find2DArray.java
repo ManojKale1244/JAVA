@@ -1,5 +1,5 @@
 import java.util.*;
-public class Matrices {
+public class Find2DArray {
     public static boolean Search(int arr[][],int key){
          int n = arr.length;
         int m = arr[0].length;
