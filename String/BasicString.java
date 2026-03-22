@@ -10,5 +10,6 @@ public class BasicString {
         System.out.print("Enter your name :");
         String name = sc.nextLine();
         string(name);
+        sc.close();
     }
 }

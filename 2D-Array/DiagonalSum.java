@@ -6,7 +6,7 @@ public class DiagonalSum {
                 if(i == j){
                     sum+= arr[i][j];
                 }
-                else if(i + j == arr.length-1){
+                else if(i + j == arr.length-1){ 
                     sum+= arr[i][j];
                 }
             }
