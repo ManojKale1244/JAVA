@@ -9,6 +9,6 @@ public class Febunachi {
         return Feb;
     }
     public static void main(String[] args) {
-        System.out.println(PrintFeb(5));
+        System.out.println(PrintFeb(10));
     }
 }
