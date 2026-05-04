@@ -25,7 +25,7 @@ public class MultiArrayList {
             list3.add(9);
             list3.add(12);
             list3.add(15);
-            MainList.add(list3);
+            MainList.add(list3); 
 
             for(int i=0;i<MainList.size();i++){
                 ArrayList<Integer> CurrList = MainList.get(i);
