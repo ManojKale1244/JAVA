@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class BinarytoDecimal {
     public static void BinTODeci(int n){
-      int deci =0;
+      int Bin =0;
       int pow = 0;
       while(n>0){
-        int LastDigit = n%10;
-        deci = deci+LastDigit*(int)Math.pow(2, pow);
+        int LastDigit = n%2;
+        Bin = Bin+LastDigit*(int)Math.pow(10, pow);
         pow++;
-         n= n/10;
+         n= n/2;
       }
-      System.out.println(deci);
+      System.out.println(Bin);
     
     }
     public static void main(String[] args){
@@ -18,5 +18,6 @@ public class BinarytoDecimal {
         System.out.print("Enter a number :");
         int num = sc.nextInt();
         BinTODeci(num);
+        sc.close();
     }
 }
