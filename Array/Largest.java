@@ -1,23 +1,16 @@
-
-public class Largest{
-   
-        public static int LargestNumbers(int num[]){
-            int largest = Integer.MIN_VALUE;
-           
-           for(int i=0;i<num.length;i++){
-            if(largest<num[i]){
-            largest= num[i];
-           }
-         }
-                 return largest;
-
-      }
-
-     public static void main(String[] args){
-      int arr[] = {1,2,6,3,5};
+public class Largest {
+    public static void LargestElement(int arr[]){
+    int max = Integer.MIN_VALUE;
     
-      System.out.println("The largest number is :" + LargestNumbers(arr));
-      
-   }
-     
+    for(int i=0;i<arr.length;i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    System.out.println("The Largest Element is "+""+ max);
+    }
+    public static void main(String [] args){
+        int arr[] = {8,2,3,5,1,9};
+        LargestElement(arr);
+    }
 }

@@ -3,7 +3,7 @@ import java.util.*;
 public class SubString {
     public static String Search(String ch, int st,int end){
         String sum = "";
-        for(int i = st;i<end;i++){
+        for(int i = st;i<=end;i++){ 
           sum+= ch.charAt(i);
 
         }
