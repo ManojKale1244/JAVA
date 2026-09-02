@@ -20,5 +20,12 @@ public class Lec_5{
        while(!S.isEmpty()){
         System.out.println(S.pop());
        }
+
+
+    }
+    public static void printStack(Stack<Integer> s){
+        while(!s.isEmpty()){
+            System.out.println(s.pop());
+        }
     }
 }
